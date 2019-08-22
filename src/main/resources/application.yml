@@ -1,0 +1,15 @@
+spring.profiles.include: commands
+
+server:
+  port: 8090
+  servlet:
+    context-path: /
+
+tamagochi:
+  bot:
+    token: "725731946:AAHKXHS7gr-UrwHCcKDiH9Qt359Lyv7QZMM"
+    name: testPetsBot
+    data-file: "data/user_data.json"
+
+
+
